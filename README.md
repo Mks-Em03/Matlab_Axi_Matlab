@@ -7,11 +7,6 @@ Latency budget: 100 µs (clock 10 ns / 100 MHz — not the sample time).
 
 ## MATLAB
 
-```matlab
-testbench_data_collector
-
-
-
 # Word-4 AXI-Stream Pipeline
 
 MATLAB / HDL Coder design that collects a **10-word AXI4-Stream packet**, takes **word 4** (`buf(4)`, MATLAB 1-based), sends it through an **enabled passthrough accelerator**, counts how many packets passed, and emits one output beat:
@@ -43,7 +38,5 @@ Input is an AXI4-Stream **master** (testbench / upstream). The DUT input port is
 
 Put every `.m` file on the MATLAB path, then:
 
-```matlab
-Testbench_data_collec
+visit - https://baker-sage-pixel-raven.grok.me/ to simulate the model
 
-``` visit - https://baker-sage-pixel-raven.grok.me/ to simulate the model ```
